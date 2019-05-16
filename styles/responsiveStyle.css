@@ -1,0 +1,641 @@
+@media screen and (max-width: 1200px) 
+{
+	.main #desc-akt h2
+	{
+		font-size: 19px;
+	}
+	ol > li , ol > li > ul
+	{
+	 	font-size: 10px;
+	 	min-width: 110px;
+	 	letter-spacing: 1px;
+	}
+	.nav-sticky
+	{
+		width: 100%;
+	}
+	#container
+	{
+		width: 95%;
+	}
+	.next
+	{
+	 	left: 450px;
+	}
+	.last_box
+	{
+	 	width: 390px;
+		height: 100px;
+		border: 3px solid red;
+	}
+	.back_1 > img, .back_2 > img
+	{
+	 	width: 75px;
+	 	height: 75px;
+	}
+	.contact
+	{
+	 	display: block;
+	}
+	.data
+	{
+	 	width: 100%;
+	}
+	.map_contact
+	{
+	 	width: 100%;
+	}
+	#table-content
+	{
+		width: 100%;
+	}
+	section > fieldset
+	{
+	 	margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 992px) 
+{
+	body > header
+	{
+		-o-background-size: 100% 120px;
+		   background-size: 100% 120px;
+	}
+	main
+	{
+		width: 100%;
+		margin: 0;
+	}
+	.main
+	{
+		width: 95% !important;
+		clear: both !important;
+		float: none !important;
+	}
+	.main #desc-akt h2
+	{
+		font-size: 18px;
+	}
+	.logo
+	{	
+		height: 90px;
+	}
+	.logo img
+	{
+		width: 80px;
+		height: auto;
+	}
+	header > h1 > #span-h1
+	{
+		top: 26px;
+		width: 480px;
+		height: 39px;
+	}
+	#ks-klub-sport
+	{
+		margin-right: 20%;
+	}
+	#ks-przedm-jar
+	{
+		font-size: 22px;
+	}
+	.nav ol > li/* .nav ol > li > ul > li*/
+	{
+		font-size: 11px;
+		min-width: 130px;
+	}
+ 	#games
+	{
+		width: 85%;
+	}
+	#container > aside
+	{
+		display: none !important;
+	}
+ 	.new1 .text
+	{
+		font-size: 14px;
+	}
+	.title-event
+	{
+		font-size: 15px;
+	}
+	.new1 .date-event
+	{
+		font-size: 11px;
+	}
+	.text1
+	{
+		font-size: 12px;
+	}
+	.full-table td
+	{
+		font-size: 12px;
+	}
+	.games-table
+	{
+		width: 95%;
+	}
+	#table-legend
+	{
+		font-size: 8px;
+	}
+	.header-table
+	{
+		font-size: 16px;
+	}
+	#map
+	{
+		display: none;
+	}
+	textarea
+	{
+		width: 80%;
+	}
+	body > footer
+	{
+		font-size: 12px;
+	}	 
+}
+
+@media screen and (max-width: 768px) 	
+{
+	body > header
+	{
+		background: url("../images/ks-stadium-768.jpg") no-repeat;
+		-o-background-size: 100% 100px;
+		   background-size: 100% 100px;
+	}
+	.logo
+	{
+		height: 80px;
+	}
+	.logo img
+	{
+		top: 3px;
+		width: 80px;
+		height: auto;
+	}
+	header > h1 > #span-h1
+	{
+		top: 22px;
+		width: 460px;
+	}
+	#ks-przedm-jar
+	{
+		font-size: 21px;
+	}
+	#ks-klub-sport
+	{
+		margin-right: 25%;
+	}
+	.logo #span-desc
+	{
+		font-size: 10px;
+	}
+	.nav
+	{
+		width: 100%;
+		height: 45px;
+		-webkit-box-sizing: content-box;
+		   -moz-box-sizing: content-box;
+		        box-sizing: content-box;
+	}
+ 	.main #desc-akt h2
+	{
+		font-size: 17px;
+	}
+	.main-menu
+	{
+		position: absolute;
+		left: 0px;
+		top: 44px;
+		display: none;
+		z-index: 99999;
+		width: 100%;
+	}
+	.main-menu a
+ 	{
+ 		font-size: 10px;
+ 	}
+ 	.main-menu > ol 
+	{
+		display: block;
+		width: 100%;
+		background-color: #000;
+	}
+	.main-menu > ol > li
+	{
+		display: block;
+		font-size: 11px; 
+		border: none;
+		border-top: 1px solid #333;
+		padding: 0px; 
+		width: 100%;
+	}
+	.main-menu ol > li:last-child
+	{
+		border-right: none;
+	}
+	.main-menu > ol > li > ul
+	{
+		position: relative;
+		width: 100%;
+		display: none;
+		transition: unset;
+		max-height: 200px;
+	}
+	.fa .icon-down-micro
+	{
+		font-size: 25px !important;
+	}
+	[class*=" icon-"]:before
+	{ 
+		margin-right: 0px !important;
+	}
+	.rotate-icon-down
+	{
+		-webkit-transform: rotate(180deg);
+		   -moz-transform: rotate(180deg);
+		     -o-transform: rotate(180deg);
+		        transform: rotate(180deg);
+	}
+	.main-menu > ol > li > ul > li:hover
+	{
+		background-color: #000;
+	}
+	.main-menu > ol > li > ul > li a:hover
+	{
+		color: red;
+	}
+	#menu-svg 
+	{
+		display: block;
+		margin: 8px 0 0 3px;
+		padding: 0;
+		width: 35px;
+		height: 30px;
+	}
+	#menu-svg svg 
+	{
+	    width: 35px;
+	    height: 20px;
+	    border: 1px solid gray;
+	    border-radius: 2px;
+	   	cursor: pointer;
+	  	padding: 3px;
+	}
+	#menu-svg path
+	{
+	  	z-index: 100;
+	  	fill: none;
+	  	stroke: #fff;
+	  	stroke-width: 3;
+	  	stroke-linecap: round;
+	  	-webkit-transition: stroke-dashoffset 0.3s linear, stroke-dasharray 0.3s linear;
+	  	-o-transition: stroke-dashoffset 0.3s linear, stroke-dasharray 0.3s linear;
+	  	-moz-transition: stroke-dashoffset 0.3s linear, stroke-dasharray 0.3s linear;
+	  	transition: stroke-dashoffset 0.3s linear, stroke-dasharray 0.3s linear;
+	}
+	path#p1,
+	path#p3
+	{
+	  	stroke-dasharray: 25 65;
+	}
+	path#p2
+	{
+	  	stroke-dasharray: 25 25;
+	}
+	.anim path#p1,
+	.anim path#p3
+	{
+	  	stroke-dashoffset: -56;
+	}
+	.anim path#p2
+	{
+	  	stroke-dashoffset: -12;
+	  	stroke-dasharray: 1 20;
+	}
+	#container
+	{
+		width: 100%;
+	}
+	#games
+	{
+		height: 150px;
+	}
+	.check-game
+	{
+		height: 30px;
+	}
+	.next-game, .previous-game
+	{
+		height: inherit;
+		line-height: 29px;
+		font-size: 13px;
+	}
+	.content-games
+	{
+		height: 120px;
+	}
+	.info-image
+	{
+		width: 80px;
+		height: auto;
+	}
+	.title-event
+	{
+
+		font-size: 16px;
+	}
+	.new1 .article-content
+	{
+		font-size: 13.5px;
+	}
+	.full-table
+	{
+		overflow-x: auto;
+	}
+ 	.full-table table
+	{
+		min-width: 700px;
+	}
+	.full-table td
+	{
+		font-size: 11px;
+	}
+	.header-table
+	{
+		font-size: 14px;
+	}
+	.contact
+	{
+		font-size: 20px;
+	}
+	#history-container h2
+	{
+		font-size: 23px;
+	}
+	#history-container p
+	{
+		font-size: 14px;
+	}
+	#players-header
+	{
+		font-size: 20px;
+	}
+	.timetable-header
+	{
+		font-size: 11px;
+	}
+	.games_title
+	{
+		font-size: 0.9em;
+		padding: 0.2em;
+	}
+	.games-table
+	{
+		width: 100%;
+	}
+	.games-table tr
+	{
+		font-size: 11px;
+	}
+	.games-table h3
+	{
+		font-size: 13px;
+	}
+	.games-table .team_timetable1, .team_timetable2
+	{
+		letter-spacing: 0.1em;
+	}
+	.titleEvent
+	{
+		font-size: 14px;
+	}
+	.new1 .text
+	{
+		font-size: 13px;
+	}
+	.reg
+	{
+		padding-top: 2.5px;
+		font-size: 12px;
+		width: 155px;
+	}
+	textarea
+	{
+		width: 85%;
+	}
+	.new1 .date-event
+	{
+		font-size: 10px;
+		height: 20px;
+		line-height: 20px;
+	}
+	.new2 .date-event
+	{
+		font-size: 10px;
+	}
+	#pagin > a
+	{
+		font-size: 14px;
+		line-height: 29px;
+		width: 30px;
+		height: 30px;
+	}
+	body > footer
+	{
+		height: 40px;
+		line-height: 39px;
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 576px) 	
+{
+	.logo img
+	{
+		top: 7px;
+		left: 3px;
+		width: 70px;
+	}
+	header > h1 > #span-h1
+	{
+		top: 25px;
+		width: 290px;
+		height: 30px;
+	}
+	#ks-klub-sport
+	{
+		margin-right: 0;
+		font-size: 9px;
+	}
+	#ks-przedm-jar
+	{
+		letter-spacing: 1px;
+		font-size: 14px;
+	}
+	.logo #span-desc
+	{
+		top: 2px;
+	}
+	.main #desc-akt h2
+	{
+		font-size: 14px;
+		width: 95%;
+	}
+	.main
+	{
+		width: 100%;
+	}
+	#games
+	{
+		width: 95%;
+		height: 130px;
+	}
+	.check-game
+	{
+		height: 25px;
+	}
+	.next-game, .previous-game
+	{
+		font-size: 12px;
+		line-height: 24px;
+	}
+	.content-games
+	{
+		height: 105px;
+	}
+	#info-next-game
+	{
+		width: 76%;
+	}
+	#info-next-game td, #info-previous-game p
+	{
+		font-size: 10.5px;
+	}
+	.info-image
+	{
+		margin: 0;
+		width: 50px;
+		height: auto;
+	}
+	.image-news
+	{
+		width: 15%;
+		float: left;
+	}
+	.news
+	{
+		width: 95%;
+		margin: 4% auto 0 auto;
+	}
+	.new1 .text
+	{
+		font-size: 11px;
+		height: 80px;
+	}
+	.article-content
+	{
+		font-size: 12px !important;
+	}
+	.new2 .allText
+	{
+		font-size: 13px;
+	}
+	.title-event
+	{
+		font-size: 12px;
+	}
+	.article-content
+	{
+		font-size: 11px;
+	}
+	.nick, textarea
+	{
+		font-size: 0.8em;
+		font-family: serif !important;
+	}
+	.button
+	{
+		width: 70px;
+		font-size: 0.8em;
+	}
+	.player
+	{
+		margin: 5px 0;
+	}
+	#pagin > a
+	{
+		font-size: 12px;
+		line-height: 24px;
+		width: 25px;
+		height: 25px;
+	}
+	section > fieldset
+	{
+		width: 100%;
+	}
+	#table-legend td
+	{
+		font-size: 8px;
+	}
+	#history-container h2
+	{
+		font-size: 20px;
+	}
+	#history-container p
+	{
+		font-size: 13px;
+	}
+	.header-table
+	{
+		font-size: 12px;
+	}
+	.timetable-header
+	{
+		font-size: 9px;
+	}
+	.games-table tr
+	{
+		font-size: 9px;
+	}
+	.games-table h3
+	{
+		font-size: 11px;
+	}
+	.games-table .team_timetable1, .team_timetable2
+	{
+		letter-spacing: 0.1em;
+	}
+	textarea
+	{
+		width: 95%;
+	}
+	.dateEvent
+	{
+		font-size: 10px;
+	}
+	body > footer
+	{
+		line-height: normal;
+		height: 60px;
+		font-size: 10px;
+		padding: 5px 0 15px 0;
+		white-space: pre-line;
+	}
+}
+/*print option*/
+@media print
+{
+	#container > aside, body > header, body > footer, nav
+	{
+		display: none !important;
+	}
+	main
+	{
+		width: 100%;
+	}
+}

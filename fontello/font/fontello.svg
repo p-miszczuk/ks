@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="key" unicode="&#xe800;" d="M774 612q20-116-28-215t-150-117q-66-12-130-2l-118-194-70-12-104-166q-14-28-46-32l-76-14q-12-4-22 4t-12 22l-16 98q-8 30 12 56l258 386q-24 50-38 120-18 106 53 187t185 101q106 20 195-45t107-177z m-126-76q30 44 21 97t-51 83q-42 32-92 22t-80-54q-8-12-12-23t-1-20 5-16 13-17 18-15 22-16 23-17q6-4 22-16t23-16 19-12 19-8 17 1 18 8 16 19z" horiz-adv-x="780" />
+
+<glyph glyph-name="eye" unicode="&#xe801;" d="M500 630q92 0 177-25t141-62 99-77 63-71 20-45-20-44-63-71-99-78-141-62-177-25-177 25-141 62-99 78-63 71-20 44 20 45 63 71 99 77 141 62 177 25z m0-494q92 0 157 63t65 151q0 90-65 153t-157 63-157-63-65-153q0-88 65-151t157-63z m0 214q8-8 37-2t50 11 25-9q0-44-33-75t-79-31-78 31-32 75q0 46 32 77t78 31q14 0 10-23t-12-47 2-38z" horiz-adv-x="1000" />
+
+<glyph glyph-name="down-micro" unicode="&#xe802;" d="M235 231l-235 236h471z" horiz-adv-x="471" />
+
+<glyph glyph-name="right" unicode="&#xe803;" d="M0 347q0 26 18 43t43 17h642l-242 244q-19 18-19 44t19 42q17 19 42 19t44-19l390-390-390-391q-20-18-44-18t-42 18-19 44 19 43l242 242h-642q-25 0-43 18t-18 44z" horiz-adv-x="938" />
+
+<glyph glyph-name="facebook" unicode="&#xf052;" d="M0 350h97v-469h193v469h130l17 161h-146v81q0 18 2 28t8 20 19 13 35 4h81v161h-129q-112 0-161-53t-49-157v-97h-97v-161z" horiz-adv-x="437.5" />
+
+<glyph glyph-name="user-circle" unicode="&#xf2bd;" d="M850 103q-12 86-49 144t-103 66q-37-42-89-65t-109-23-109 23-89 65q-66-9-103-66t-49-144q59-84 151-133t199-49 199 49 151 133z m-136 390q0 89-62 151t-152 63-151-63-63-151 63-152 151-62 152 62 62 152z m286-143q0-102-40-194t-106-160-159-106-195-40q-102 0-194 40t-160 106-106 160-40 194 40 194 106 160 160 106 194 40 194-40 160-106 106-160 40-194z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

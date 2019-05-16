@@ -1,0 +1,231 @@
+html
+{
+	height: 100%;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #aaa;
+	background-color: #464950;
+	height: 100%;
+}
+#container
+{
+	width: 100%;
+	min-height: 100%;
+}
+#middle-form
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 0px 15px 15px 15px;
+	background-color: #000;
+	font-family: Tahoma;
+	width: 305px;
+	min-height: 332px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.75);
+}
+#middle-form > p
+{
+	color: #ccc;
+	font-size: 22px;
+	font-weight: 600;
+	padding: 5px 0;
+	text-align: center;
+	font-style: italic;
+	border-radius: 3px; 
+}
+#middle-form div
+{
+	text-align: center;
+}
+input[type="text"], input[type="password"]
+{
+	padding: 2px;
+	background-color: inherit;
+	color: #fff;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-size: 18px;
+	display: inline;
+	margin-left: 5px;
+	width: 80%;
+}
+.g-recaptcha
+{
+	margin-bottom: 10px;
+	min-height: 80px;
+}
+#middle-form input[type="submit"]
+{
+	width: 95%;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 10px 0;
+	font-family: Tahoma;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+#middle-form .footer
+{
+	color: #ccc;
+	background-color: #000;
+	padding: 5px 0;
+	text-align: center;
+	margin-top: 15px;
+	display: block;
+	font-size: 10px;
+	border-radius: 3px;
+}
+.menu
+{
+	padding: 1%;
+	float: left;
+	width: 14%;
+	border-right: 2px solid white;
+	text-align: center;
+}
+.menu div
+{
+	padding-top: 5px;
+}
+.menu a
+{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 10px 5px;
+	font-size: 13px;
+	font-family: sans-serif; 
+	margin-bottom: 5px;
+	background-color: blue;
+}
+.menu a:hover
+{
+	background-color: #029;
+}
+.panel
+{
+	float: left;
+	width: 75%;
+	margin: 3%;
+}
+.pannel:after
+{
+	clear: both;
+}
+.addingEvent input
+{
+	width: 650px;
+}
+.addingEvent textarea
+{
+	width: 650px;
+	height: 300px;
+}
+.alinks
+{
+	text-decoration: none;
+	color: white;
+}
+.alinks:hover
+{
+	color: yellow;
+	font-size: 18px;
+}
+#commentClass
+{
+	padding: 10px;
+}
+#commentClass textarea
+{
+	width: 350px;
+	height: 200px;
+}
+input
+{
+	display: block;
+}
+option
+{
+	width: 100px;
+}
+select
+{
+	float: left;
+}
+.score
+{
+	width: 35px;
+}
+.date
+{
+	width: 70px;
+}
+#show
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.valAktSeas
+{
+	display: none;	
+}
+.showSeason
+{
+	margin-bottom: 10px;
+}
+#idAvtSeas
+{
+	margin-top: 20px;
+}
+#addActSeas
+{
+	margin: 5px 0px;
+}
+.games
+{
+	width: 25px;
+}
+.teamTable
+{
+	width: 150px;
+}
+.btn-delete
+{
+	cursor: pointer;
+	padding: 5px;
+	background-color: red;
+}
+.div-input
+{
+	border: 1px solid #fff;
+	padding: 5px; 
+	display: table; 
+	margin: 5px 0;
+}
+#edit-gallery ol
+{
+	list-style-type: none;
+}
+#edit-gallery div
+{
+	display: table;
+	margin: 10px 0;
+	border: 1px solid #fff;
+}
+#edit-gallery .delete-photo
+{
+	background-color: red;
+	margin: 5px 0 5px 80%;
+}
